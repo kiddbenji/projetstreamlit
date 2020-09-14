@@ -1,0 +1,3 @@
+graft projetstreamlit
+global-exclude *.py[cod] __pycache__ *.so *.ipynb
+recursive-exclude  projetstreamlit/jupy *
