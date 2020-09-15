@@ -1,1 +1,1 @@
-web: pip install . -U && politicalpred-run
+web: pip install . -U && python app.py
