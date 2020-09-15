@@ -15,11 +15,6 @@ st.markdown("""
 """)
 
 
-otpion = st.slider('nb of lines', 1, 10)
-df = Delphes().get_data()
-filt_df = df.head(otpion)
-st.write(filt_df)
-
 st.markdown("""
     ## ****
 """)
