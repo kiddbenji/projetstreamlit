@@ -1,1 +1,1 @@
-web: pip install . -U && streamlit run app.py
+web: sh setup.sh && pip install . -U && streamlit run app.py
